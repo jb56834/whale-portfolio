@@ -4,7 +4,7 @@
 
 1. Calculate and plot cumulative returns. Does any portfolio outperform the S&P 500?
 
-**insert cumulative plot**
+![markdown-image1](cum_rets.png)
 
 Based on the cumulative returns plot, there is no portfolio that outperformed the S&P 500 from Mar 2015 to Apr 2019, except a slight better-off in Berkshire Hathaway portfolio during the first half year of 2018. 
 
@@ -61,3 +61,23 @@ Based on the correlation table, Algo2 is most correlated to and closely mimic th
 Based on the rolling beta, Berkshire Hathaway portfolio seems very sensitive to S&P 500 movements because for most of the time, portfolio would move 1.2% to 1.5% given 1% move in S&P 500. 
 
 4. An alternative way to calculate a rolling window is to take the exponentially weighted moving average. This is like a moving window average, but it assigns greater importance to more recent observations. Try calculating the ewm with a 21 day half-life.
+
+**insert ewm**
+
+## Plot Sharpe Ratios
+
+1. Using the daily returns, calculate and visualize the Sharpe ratios using a bar plot.
+
+**insert bar plot**
+
+2. Determine whether the algorithmic strategies outperform both the market (S&P 500) and the whales portfolios.
+
+Based on the sharpe ratios, Algo1 outperformed both market and whales but Algo2 did not. 
+
+## Create Custom Portfolio
+
+5. Add your portfolio returns to the DataFrame with the other portfolios and rerun the analysis. How does your portfolio fair?
+
+
+
+Based on the data summary and visualization, my custom portfolio, which is AAPL, TSLA and JNJ being equally weighted, shows 68% correlation to S&P with 21% annual volatility. Although risk is higher than 13% in market, the sharpe ratio does not improve at all compared to S&P 500, indicating unnecessary risk exposure without higher returns. The custom portfolio performs very similarly to Berkshire Hathaway portfolio 
