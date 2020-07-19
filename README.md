@@ -24,7 +24,7 @@ TIGER GLOBAL MANAGEMENT LLC    0.010894\
 BERKSHIRE HATHAWAY INC         0.012919\
 Algo 1                         0.007620\
 Algo 2                         0.008342\
-S&P 500                        0.008554\
+S&P 500                        0.008554
 
 Based on the standard deviation, Berkshire Hathaway and Tiger Global are riskier than S&P 500. 
 
@@ -36,7 +36,7 @@ TIGER GLOBAL MANAGEMENT LLC    0.172936\
 BERKSHIRE HATHAWAY INC         0.205077\
 Algo 1                         0.120967\
 Algo 2                         0.132430\
-S&P 500                        0.135786\
+S&P 500                        0.135786
 
 
 ## Rolling Statistics
@@ -86,4 +86,4 @@ Based on the sharpe ratios, Algo1 outperformed both market and whales but Algo2 
 
 ![markdown-image11](myport_beta.png)
 
-Based on the data summary and visualization, my custom portfolio, which is AAPL, TSLA and JNJ being equally weighted, shows 68% correlation to S&P with 21% annual volatility. Although risk is higher than 13% in market, the sharpe ratio does not improve at all compared to S&P 500, indicating unnecessary risk exposure without higher returns. The custom portfolio performs very similarly to Berkshire Hathaway portfolio 
+Based on the data summary and visualization, my custom portfolio, which is AAPL, TSLA and JNJ being equally weighted, shows 68% correlation to S&P with 21% annual volatility. Although risk is higher than 13% in market, the sharpe ratio does not improve at all compared to S&P 500, indicating unnecessary risk exposure without higher returns. The custom portfolio performs very similarly to Berkshire Hathaway portfolio.
